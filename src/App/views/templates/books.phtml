@@ -1,0 +1,10 @@
+<ul>
+<?php foreach ($this->books as $book) : ?>
+    <?php $link = $this->url(array('book'), array('id' => $book->id)); ?>
+    <li>
+        <a href="<?php echo $link ?>"><?php echo $this->escape($book->name); ?></a>
+        from 
+        <?php echo $this->escape($book->author); ?>
+    </li>
+<?php endforeach; ?>
+</ul>

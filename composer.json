@@ -1,6 +1,6 @@
 {
-    "name": "quasar-framework/quasar-default-project-structure",
-    "description": "Quasar Framework Default Project Structure",
+    "name": "quasar-framework/quasar-quickstart",
+    "description": "Quasar Framework QuickStart Project",
     "type": "library",
     "repositories": [
         {
