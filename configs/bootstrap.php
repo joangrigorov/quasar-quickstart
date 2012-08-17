@@ -8,10 +8,6 @@ defined('DS') || define('DS', DIRECTORY_SEPARATOR);
 defined('APPLICATION_ENV')
 || define('APPLICATION_ENV', (getenv('APPLICATION_ENV') ? getenv('APPLICATION_ENV') : 'production'));
 
-// turn on error reporting
-ini_set('display_errors', 1);
-error_reporting(E_ALL);
-
 // create the injector
 $injector = new Quasar\Di\Container(include ROOT_PATH . '/configs/di/global.php');
 

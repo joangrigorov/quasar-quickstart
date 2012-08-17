@@ -1,4 +1,7 @@
 <?php
+/*
+ * This file is for your development environment
+ */
 return array(
     'Quasar\Env\Config\CoreSettings' => array(
         'params' => array(

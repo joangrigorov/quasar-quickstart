@@ -1,4 +1,7 @@
 <?php
+/*
+ * Dependency Injection configuration
+ */
 return array(
 
     'db-driver' => array(

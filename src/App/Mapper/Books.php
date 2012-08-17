@@ -1,11 +1,34 @@
 <?php
+/**
+ * Quasar Framework QuickStart Project © 2012
+ * Copyright © 2012 Sasquatch <Joan-Alexander Grigorov>
+ *                              http://bgscripts.com
+ *
+ * LICENSE
+ *
+ * This source file is subject to the GNU General Public License v3
+ * that is bundled with this package in the file LICENSE.
+ * It is also available through the world-wide-web at this URL:
+ * http://www.gnu.org/copyleft/gpl.html
+ *
+ * @category   Application
+ * @package    Application Data Mappers
+ * @copyright  Copyright (c) 2012 Sasquatch
+ */
 
 namespace App\Mapper;
 
-use App\Model\BookEntity;
+use App\Model\BookEntity,
+    App\Gateway\Books as BooksGateway;
 
-use App\Gateway\Books as BooksGateway;
-
+/**
+ * Books data mapper
+ * 
+ * @author     Joan-Alexander Grigorov http://bgscripts.com
+ * @category   Application
+ * @package    Application Data Mappers
+ * @copyright  Copyright (c) 2012 Sasquatch
+ */
 class Books
 {
     
